@@ -4,7 +4,6 @@ local FULLY_SET_CHAR = string.char(127)
 
 
 function New(bits, startingStr)
-	--print(CoreDebug.GetStackTrace())
 	local charsRequired = math.ceil(bits / BITS_PER_CHAR)
 	if startingStr == nil then
 		startingStr = string.rep(DEFAULT_CHAR, charsRequired)
@@ -69,8 +68,6 @@ function BF.Set(self, index, value)
 	byte = byte | newBit << bitIndex
 
 	self.raw = self.raw:sub(0, charIndex - 1) .. string.char(byte) .. self.raw:sub(charIndex + 1)
-
-	--print("--", self.raw)
 end
 
 
@@ -90,15 +87,6 @@ function BF.Reset(self, newValue)
 end
 
 
-
-local b = New(10)
-b:Reset(true)
-print(b)
-for i = 1, 10, 3 do
-	b:Set(i, false)
-end
-print(b)
-print("-=------")
 
 
 return {

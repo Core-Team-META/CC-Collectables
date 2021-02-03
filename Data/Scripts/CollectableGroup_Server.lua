@@ -8,12 +8,11 @@ local SERVER_DATA_PROPERTY = "Contents"
 
 local BF = require(prop_Bitfields)
 
-
 local collectableData = nil
 
 function InitContents(player, itemCount)
-	print("Initting with ", itemCount, "items!")
 	if collectableData ~= nil then return end
+	print(string.format("Initting %s with %d items!", propClientRoot.name, itemCount))
 
 	collectableData = BF.New(itemCount)
 	collectableData:Reset(true)
@@ -24,7 +23,7 @@ end
 
 function UpdateContents(player, bits, dataString)
 	local collected = BF.New(bits, dataString)
-	print("Received collected: ", collected)
+	--print("Received collected: ", collected)
 	local needToUpdate = false
 
 	for i = 0, collectableData.bits - 1 do
@@ -33,7 +32,7 @@ function UpdateContents(player, bits, dataString)
 				collectableData:Set(i, false)
 				player:AddResource(propResource, propResourceAmount)
 				needToUpdate = true
-				print("Collected!")
+				--print("Collected!")
 			else
 				warn("!!!! Tried to collect an id that wasn't there:" .. tostring(i) .. ":" .. player.name)
 			end
@@ -46,12 +45,11 @@ function UpdateContents(player, bits, dataString)
 
 end
 
+-- Updates the custom network property with the "official" game state data.
 function UpdateCurrentStringData()
-
-
 	if collectableData ~= nil then
 		--collectableData:Reset(true)
-		print("sending new data!------------", collectableData)
+		--print("sending new data!------------", collectableData)
 		propClientRoot:SetNetworkedCustomProperty(SERVER_DATA_PROPERTY, collectableData.raw)
 	else
 		warn("Somehow got to update string data without any data?")
@@ -59,8 +57,18 @@ function UpdateCurrentStringData()
 
 end
 
+-- Reenables all the collectables
+function ResetCollectables(group)
+	if group ~= nil and group ~= propClientRoot then return end
+
+	collectableData:Reset(true)
+	UpdateCurrentStringData()
+end
 
 
-print("Registering")
+
+
 Events.ConnectForPlayer(propClientRoot:GetReference().id .. ":UpdateContents", UpdateContents)
 Events.ConnectForPlayer(propClientRoot:GetReference().id .. ":Init", InitContents)
+
+Events.Connect("ResetCollectables", ResetCollectables)
