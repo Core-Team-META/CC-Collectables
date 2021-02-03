@@ -53,8 +53,6 @@ function UpdateContents(player, bits, dataString)
 	if needToUpdate then
 		UpdateCurrentStringData()
 	end
-
-
 end
 
 -- Updates the custom network property with the "official" game state data.
@@ -64,7 +62,6 @@ function UpdateCurrentStringData()
 	else
 		warn("Somehow got to update string data without any data?")
 	end
-
 end
 
 -- Reenables all the collectables

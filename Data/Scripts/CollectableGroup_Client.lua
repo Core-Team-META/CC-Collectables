@@ -68,7 +68,6 @@ end
 
 function SyncServerDataTask()
 	while(true) do
-		--print("Checking update tasks...")
 		if needToReportCollections then
 			ReliablyBroadcastToServer(UPDATE_EVENT, recentlyCollected.bits, recentlyCollected.raw)
 			recentlyCollected:Reset()
@@ -82,11 +81,6 @@ function SyncServerDataTask()
 		Task.Wait(2)
 	end
 end
-
-
-
-
-
 
 
 function UpdateFromString()
@@ -121,11 +115,9 @@ function FixOldData()
 		-- been more than MAX_DESYNC_TIME and we haven't received server validation:
 		if data.lastLocalUpdate > data.lastServerUpdate and data.lastLocalUpdate + MAX_DESYNC_TIME < time() then
 			local isActive = officialServerData:Get(data.id)
-			--print(isActive)
 			data.obj.isEnabled = isActive
 			data.active = isActive
 			data.lastLocalUpdate = time()
-			--data.lastServerUpdate = lastServerUpdateTime
 		end
 	end
 end
@@ -147,7 +139,6 @@ function OnTriggerHit(trigger, other)
 
 			World.SpawnAsset(propPickupEffect, {position = data.obj:GetWorldPosition()})
 			needToReportCollections = true
-			--print(recentlyCollected)
 		end
 	end
 end
@@ -156,7 +147,6 @@ end
 
 
 function OnServerUpdate(obj, property)
-	--print("serverUpdate!")
 	if obj == propGroupRoot and property == SERVER_DATA_PROPERTY then
 		UpdateFromString()
 	end
