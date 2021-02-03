@@ -1,3 +1,17 @@
+--[[
+Collectable Group - Server
+v1.0
+Created by Chris
+
+Server-side implementation for collectable groups.
+
+Keeps track of what collectables have been picked up, and informs
+clients of what the "official" state is.  Also validates
+pickups and awards resources.
+
+See the Readme for a more detailed breakdown of the architecture.
+]]
+
 local prop_Bitfields = script:GetCustomProperty("_Bitfields")
 local propClientRoot = script:GetCustomProperty("ClientRoot"):WaitForObject()
 
@@ -23,7 +37,6 @@ end
 
 function UpdateContents(player, bits, dataString)
 	local collected = BF.New(bits, dataString)
-	--print("Received collected: ", collected)
 	local needToUpdate = false
 
 	for i = 0, collectableData.bits - 1 do
@@ -32,7 +45,6 @@ function UpdateContents(player, bits, dataString)
 				collectableData:Set(i, false)
 				player:AddResource(propResource, propResourceAmount)
 				needToUpdate = true
-				--print("Collected!")
 			else
 				warn("!!!! Tried to collect an id that wasn't there:" .. tostring(i) .. ":" .. player.name)
 			end
@@ -48,8 +60,6 @@ end
 -- Updates the custom network property with the "official" game state data.
 function UpdateCurrentStringData()
 	if collectableData ~= nil then
-		--collectableData:Reset(true)
-		--print("sending new data!------------", collectableData)
 		propClientRoot:SetNetworkedCustomProperty(SERVER_DATA_PROPERTY, collectableData.raw)
 	else
 		warn("Somehow got to update string data without any data?")
@@ -60,12 +70,9 @@ end
 -- Reenables all the collectables
 function ResetCollectables(group)
 	if group ~= nil and group ~= propClientRoot then return end
-
 	collectableData:Reset(true)
 	UpdateCurrentStringData()
 end
-
-
 
 
 Events.ConnectForPlayer(propClientRoot:GetReference().id .. ":UpdateContents", UpdateContents)

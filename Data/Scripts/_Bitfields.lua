@@ -1,3 +1,25 @@
+--[[
+Bitfields library
+v1.0
+Created by Chris
+
+Lua implementation of a fixed-length bitfield.  Handles
+easy get/set, and exports to a CORE-safe string.
+(i. e. no null characters or extended ASCII)
+
+
+Sample uses:
+
+local BF = require(prop_Bitfields)  -- this library needs to be required.
+local myBitfield = BF.New(10) -- 10 bits long
+
+myBitfield.Reset(false)  -- Set everything to false.
+myBitfield.Set(2, true)  -- Sets the 2nd bit to true
+print(myBitfield.Get(2)) -- Should return true
+print(myBitfield)        -- Print out a human-readable version of the bitfield.
+--]]
+
+
 local BITS_PER_CHAR = 6	-- you read that right. :(
 local DEFAULT_CHAR = string.char(64)
 local FULLY_SET_CHAR = string.char(127)
@@ -59,7 +81,6 @@ end
 function BF.Set(self, index, value)
 	local charIndex, bitIndex = GetBitLocation(index)
 	assert(charIndex <= self.raw:len())
-	--print("setting", charIndex, bitIndex)
 
 	local newBit = 0
 	if value then newBit = 1 end

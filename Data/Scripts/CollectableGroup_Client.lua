@@ -1,3 +1,19 @@
+--[[
+Collectable Group - Client
+v1.0
+Created by Chris
+
+Client-side implementation for collectable groups.
+
+Keeps track of displaying whatever collectables it thinks
+the local player should be able to see.  Occasionally
+gets reports from the server about what is "officially" still
+there.  Occasionally acts on them.
+
+See the Readme for a more detailed breakdown of the architecture.
+]]
+
+
 local prop_Bitfields = script:GetCustomProperty("_Bitfields")
 local propPickupEffect = script:GetCustomProperty("PickupEffect")
 local propGroupRoot = script:GetCustomProperty("GroupRoot"):WaitForObject()
@@ -8,8 +24,6 @@ local SERVER_DATA_PROPERTY = "Contents"
 local MAX_DESYNC_TIME = 4	-- How long we'll tolerate a lack of update from server.
 
 local BF = require(prop_Bitfields)
---local collisionEventName = "COLLIDE:" .. script.parent.id
---local serverUpdateEventName = "UPDATE:" .. script.parent.id
 
 local UPDATE_EVENT = propGroupRoot:GetReference().id .. ":UpdateContents"
 local INIT_EVENT = propGroupRoot:GetReference().id .. ":Init"
@@ -47,7 +61,6 @@ function Init()
 	recentlyCollected = BF.New(totalCoins)
 
 	propGroupRoot.networkedPropertyChangedEvent:Connect(OnServerUpdate)
-	--Events.BroadcastToServer(INIT_EVENT, totalCoins)
 	ReliablyBroadcastToServer(INIT_EVENT, totalCoins)
 	Task.Spawn(SyncServerDataTask)
 end
@@ -57,9 +70,6 @@ function SyncServerDataTask()
 	while(true) do
 		--print("Checking update tasks...")
 		if needToReportCollections then
-			--print("reporting...", recentlyCollected)
-			-- Report to server
-			--Events.BroadcastToServer(UPDATE_EVENT, recentlyCollected.bits, recentlyCollected.raw)
 			ReliablyBroadcastToServer(UPDATE_EVENT, recentlyCollected.bits, recentlyCollected.raw)
 			recentlyCollected:Reset()
 
@@ -69,7 +79,7 @@ function SyncServerDataTask()
 		-- Fix things to match the server, if they've been changed locally
 		-- but the server hasn't validated them after MAX_DESYNC_TIME.
 		FixOldData()
-		Task.Wait(1)
+		Task.Wait(2)
 	end
 end
 
@@ -86,8 +96,6 @@ function UpdateFromString()
 	lastServerUpdateTime = time()
 
 	officialServerData = BF.New(totalCoins, stringData)
-	--print("Got string:", stringData)
-	--print("Data = ", officialServerData)
 
 	for k,data in pairs(objList) do
 		local isActive = officialServerData:Get(data.id)
@@ -155,6 +163,12 @@ function OnServerUpdate(obj, property)
 end
 
 
+-- Utility function to make sure that events
+-- we send to the server get through.
+-- (We only need this for client -> server communication
+-- because all communication from the server -> client is
+-- handled via networked custom properties, which are
+-- automatically reliable.)
 function ReliablyBroadcastToServer(EventName, ...)
 	local args = {...}
 	Task.Spawn(function()
@@ -180,6 +194,3 @@ UpdateFromString()
 
 Init()
 
-
-
---Events.Connect(serverUpdateEventName, OnServerUpdate)
