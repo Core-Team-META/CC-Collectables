@@ -21,6 +21,7 @@ Objects {
   ChildIds: 13955572880352022772
   ChildIds: 5189954099606264418
   ChildIds: 7479349496451022702
+  ChildIds: 17453123100688651249
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -30,6 +31,11901 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 17453123100688651249
+  Name: "Trees"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 6479249027016919316
+  ChildIds: 589444400967853541
+  ChildIds: 1271754187861226273
+  ChildIds: 14670840140783475240
+  ChildIds: 14259657524994832505
+  ChildIds: 16013981087762971194
+  ChildIds: 13814277788683732454
+  ChildIds: 18323454952790173209
+  ChildIds: 4874136286258920636
+  ChildIds: 13263248810144745036
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13263248810144745036
+  Name: "3x3 Tree Patch"
+  Transform {
+    Location {
+      X: -3200
+      Y: 6500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17453123100688651249
+  ChildIds: 13536690014095868273
+  ChildIds: 12673317246779420671
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12673317246779420671
+  Name: "Harvested Tree Geo"
+  Transform {
+    Location {
+      X: 500
+      Y: 480
+      Z: -5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13263248810144745036
+  ChildIds: 9593613032171403710
+  ChildIds: 17718600192547522570
+  ChildIds: 5971234794155117462
+  ChildIds: 17043840315888483083
+  ChildIds: 14786814005132517
+  ChildIds: 18234557382063275121
+  ChildIds: 6322586556254778003
+  ChildIds: 13019002796962464206
+  ChildIds: 12995702619910591710
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12995702619910591710
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12673317246779420671
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13019002796962464206
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12673317246779420671
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6322586556254778003
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12673317246779420671
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18234557382063275121
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12673317246779420671
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14786814005132517
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12673317246779420671
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17043840315888483083
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12673317246779420671
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5971234794155117462
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12673317246779420671
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17718600192547522570
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12673317246779420671
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9593613032171403710
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12673317246779420671
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13536690014095868273
+  Name: "CollectableGroup"
+  Transform {
+    Location {
+      X: -500
+      Y: -395
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13263248810144745036
+  ChildIds: 11014916805864156980
+  ChildIds: 11936502386856994899
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Resource"
+      String: "Leafs"
+    }
+    Overrides {
+      Name: "cs:ResourceAmount"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 8226469640743787037
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11936502386856994899
+  Name: "CollectableGroup_Server"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13536690014095868273
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ClientRoot"
+      ObjectReference {
+        SelfId: 11014916805864156980
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12852801014046511253
+    }
+  }
+}
+Objects {
+  Id: 11014916805864156980
+  Name: "ClientContext"
+  Transform {
+    Location {
+      Y: -125
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13536690014095868273
+  ChildIds: 14137382571310450028
+  ChildIds: 3424989728135612486
+  ChildIds: 12652073391978333452
+  ChildIds: 7140574005610795378
+  ChildIds: 14905631460557270480
+  ChildIds: 952684433413440119
+  ChildIds: 13185748440438507861
+  ChildIds: 14326843242428685824
+  ChildIds: 16446114356466571871
+  ChildIds: 10919723308480211551
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Contents"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Contents:isrep"
+      Bool: true
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 10919723308480211551
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11014916805864156980
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 16446114356466571871
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11014916805864156980
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 14326843242428685824
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11014916805864156980
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 13185748440438507861
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11014916805864156980
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 952684433413440119
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11014916805864156980
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 14905631460557270480
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11014916805864156980
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 7140574005610795378
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11014916805864156980
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 12652073391978333452
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11014916805864156980
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 3424989728135612486
+  Name: "MantiTree"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11014916805864156980
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 14137382571310450028
+  Name: "CollectableGroup_Client"
+  Transform {
+    Location {
+      Y: 250
+      Z: -135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11014916805864156980
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:_Bitfields"
+      AssetReference {
+        Id: 13498945663756289152
+      }
+    }
+    Overrides {
+      Name: "cs:GroupRoot"
+      ObjectReference {
+        SelfId: 11014916805864156980
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17966986008140133144
+    }
+  }
+}
+Objects {
+  Id: 4874136286258920636
+  Name: "3x3 Tree Patch"
+  Transform {
+    Location {
+      X: -3200
+      Y: 11000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17453123100688651249
+  ChildIds: 15810471240736058184
+  ChildIds: 8805282293008138739
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8805282293008138739
+  Name: "Harvested Tree Geo"
+  Transform {
+    Location {
+      X: 500
+      Y: 480
+      Z: -5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4874136286258920636
+  ChildIds: 9086602803110029201
+  ChildIds: 5010220973719418040
+  ChildIds: 3701686207590521411
+  ChildIds: 15156613312228854578
+  ChildIds: 15344495699864059844
+  ChildIds: 420324505029213875
+  ChildIds: 12128101209213378410
+  ChildIds: 6187387690293491386
+  ChildIds: 990116886087580195
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 990116886087580195
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8805282293008138739
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6187387690293491386
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8805282293008138739
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12128101209213378410
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8805282293008138739
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 420324505029213875
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8805282293008138739
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15344495699864059844
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8805282293008138739
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15156613312228854578
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8805282293008138739
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3701686207590521411
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8805282293008138739
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5010220973719418040
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8805282293008138739
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9086602803110029201
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8805282293008138739
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15810471240736058184
+  Name: "CollectableGroup"
+  Transform {
+    Location {
+      X: -500
+      Y: -395
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4874136286258920636
+  ChildIds: 15606722318878682952
+  ChildIds: 16192113134070894085
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Resource"
+      String: "Leafs"
+    }
+    Overrides {
+      Name: "cs:ResourceAmount"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 8226469640743787037
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16192113134070894085
+  Name: "CollectableGroup_Server"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15810471240736058184
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ClientRoot"
+      ObjectReference {
+        SelfId: 15606722318878682952
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12852801014046511253
+    }
+  }
+}
+Objects {
+  Id: 15606722318878682952
+  Name: "ClientContext"
+  Transform {
+    Location {
+      Y: -125
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15810471240736058184
+  ChildIds: 7567301626917814550
+  ChildIds: 16985294250798274956
+  ChildIds: 5861667709880039361
+  ChildIds: 14190864075927937091
+  ChildIds: 1529210910681274117
+  ChildIds: 18341523342728617828
+  ChildIds: 14021739832289438983
+  ChildIds: 10781114107182841194
+  ChildIds: 16541507328365500269
+  ChildIds: 14795041070914166765
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Contents"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Contents:isrep"
+      Bool: true
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 14795041070914166765
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15606722318878682952
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 16541507328365500269
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15606722318878682952
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 10781114107182841194
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15606722318878682952
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 14021739832289438983
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15606722318878682952
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 18341523342728617828
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15606722318878682952
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 1529210910681274117
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15606722318878682952
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 14190864075927937091
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15606722318878682952
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 5861667709880039361
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15606722318878682952
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 16985294250798274956
+  Name: "MantiTree"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15606722318878682952
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 7567301626917814550
+  Name: "CollectableGroup_Client"
+  Transform {
+    Location {
+      Y: 250
+      Z: -135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15606722318878682952
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:_Bitfields"
+      AssetReference {
+        Id: 13498945663756289152
+      }
+    }
+    Overrides {
+      Name: "cs:GroupRoot"
+      ObjectReference {
+        SelfId: 15606722318878682952
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17966986008140133144
+    }
+  }
+}
+Objects {
+  Id: 18323454952790173209
+  Name: "3x3 Tree Patch"
+  Transform {
+    Location {
+      X: -3200
+      Y: 9500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17453123100688651249
+  ChildIds: 12064749513613014918
+  ChildIds: 11956449973546284875
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11956449973546284875
+  Name: "Harvested Tree Geo"
+  Transform {
+    Location {
+      X: 500
+      Y: 480
+      Z: -5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18323454952790173209
+  ChildIds: 2999827515071364303
+  ChildIds: 13596855190728785561
+  ChildIds: 14193143850973652549
+  ChildIds: 4857933887017960603
+  ChildIds: 8008648285015531760
+  ChildIds: 12431707203512543541
+  ChildIds: 9436566790417147394
+  ChildIds: 13639832039738543170
+  ChildIds: 12096281028690467216
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12096281028690467216
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 11956449973546284875
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13639832039738543170
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 11956449973546284875
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9436566790417147394
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 11956449973546284875
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12431707203512543541
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 11956449973546284875
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8008648285015531760
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 11956449973546284875
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4857933887017960603
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 11956449973546284875
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14193143850973652549
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 11956449973546284875
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13596855190728785561
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 11956449973546284875
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2999827515071364303
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 11956449973546284875
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12064749513613014918
+  Name: "CollectableGroup"
+  Transform {
+    Location {
+      X: -500
+      Y: -395
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18323454952790173209
+  ChildIds: 513273261384157062
+  ChildIds: 8205236797127317948
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Resource"
+      String: "Leafs"
+    }
+    Overrides {
+      Name: "cs:ResourceAmount"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 8226469640743787037
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8205236797127317948
+  Name: "CollectableGroup_Server"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12064749513613014918
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ClientRoot"
+      ObjectReference {
+        SelfId: 513273261384157062
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12852801014046511253
+    }
+  }
+}
+Objects {
+  Id: 513273261384157062
+  Name: "ClientContext"
+  Transform {
+    Location {
+      Y: -125
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12064749513613014918
+  ChildIds: 10664150514443319957
+  ChildIds: 6102203129602661721
+  ChildIds: 13355165581498421100
+  ChildIds: 1040937427419276227
+  ChildIds: 3970136194441073343
+  ChildIds: 2540157566764283434
+  ChildIds: 4399701276980163030
+  ChildIds: 17040792956656732505
+  ChildIds: 5568539792511057919
+  ChildIds: 10879440443130029097
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Contents"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Contents:isrep"
+      Bool: true
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 10879440443130029097
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 513273261384157062
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 5568539792511057919
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 513273261384157062
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 17040792956656732505
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 513273261384157062
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 4399701276980163030
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 513273261384157062
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 2540157566764283434
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 513273261384157062
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 3970136194441073343
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 513273261384157062
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 1040937427419276227
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 513273261384157062
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 13355165581498421100
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 513273261384157062
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 6102203129602661721
+  Name: "MantiTree"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 513273261384157062
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 10664150514443319957
+  Name: "CollectableGroup_Client"
+  Transform {
+    Location {
+      Y: 250
+      Z: -135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 513273261384157062
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:_Bitfields"
+      AssetReference {
+        Id: 13498945663756289152
+      }
+    }
+    Overrides {
+      Name: "cs:GroupRoot"
+      ObjectReference {
+        SelfId: 513273261384157062
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17966986008140133144
+    }
+  }
+}
+Objects {
+  Id: 13814277788683732454
+  Name: "3x3 Tree Patch"
+  Transform {
+    Location {
+      X: -3200
+      Y: 8000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17453123100688651249
+  ChildIds: 9778557224123265362
+  ChildIds: 8225847268732757145
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8225847268732757145
+  Name: "Harvested Tree Geo"
+  Transform {
+    Location {
+      X: 500
+      Y: 480
+      Z: -5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13814277788683732454
+  ChildIds: 1886773327623023147
+  ChildIds: 5429290584293150844
+  ChildIds: 4022870492003331215
+  ChildIds: 6658718241199641374
+  ChildIds: 1033218496511303677
+  ChildIds: 508015748579825526
+  ChildIds: 14252266623080071494
+  ChildIds: 9822891357887688768
+  ChildIds: 17802988053995031962
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17802988053995031962
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8225847268732757145
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9822891357887688768
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8225847268732757145
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14252266623080071494
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8225847268732757145
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 508015748579825526
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8225847268732757145
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1033218496511303677
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8225847268732757145
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6658718241199641374
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8225847268732757145
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4022870492003331215
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8225847268732757145
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5429290584293150844
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8225847268732757145
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1886773327623023147
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8225847268732757145
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9778557224123265362
+  Name: "CollectableGroup"
+  Transform {
+    Location {
+      X: -500
+      Y: -395
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13814277788683732454
+  ChildIds: 4255346725097648004
+  ChildIds: 4026256466730628770
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Resource"
+      String: "Leafs"
+    }
+    Overrides {
+      Name: "cs:ResourceAmount"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 8226469640743787037
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4026256466730628770
+  Name: "CollectableGroup_Server"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9778557224123265362
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ClientRoot"
+      ObjectReference {
+        SelfId: 4255346725097648004
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12852801014046511253
+    }
+  }
+}
+Objects {
+  Id: 4255346725097648004
+  Name: "ClientContext"
+  Transform {
+    Location {
+      Y: -125
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9778557224123265362
+  ChildIds: 4753519358307492617
+  ChildIds: 13329539209937913032
+  ChildIds: 8010439389237403966
+  ChildIds: 13933849143382571666
+  ChildIds: 15058448719111284746
+  ChildIds: 16416267810112510529
+  ChildIds: 10224544257483254426
+  ChildIds: 14769300430732269397
+  ChildIds: 4568701475047326514
+  ChildIds: 12706777169718017663
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Contents"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Contents:isrep"
+      Bool: true
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 12706777169718017663
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4255346725097648004
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 4568701475047326514
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4255346725097648004
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 14769300430732269397
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4255346725097648004
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 10224544257483254426
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4255346725097648004
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 16416267810112510529
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4255346725097648004
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 15058448719111284746
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4255346725097648004
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 13933849143382571666
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4255346725097648004
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 8010439389237403966
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4255346725097648004
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 13329539209937913032
+  Name: "MantiTree"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4255346725097648004
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 4753519358307492617
+  Name: "CollectableGroup_Client"
+  Transform {
+    Location {
+      Y: 250
+      Z: -135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4255346725097648004
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:_Bitfields"
+      AssetReference {
+        Id: 13498945663756289152
+      }
+    }
+    Overrides {
+      Name: "cs:GroupRoot"
+      ObjectReference {
+        SelfId: 4255346725097648004
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17966986008140133144
+    }
+  }
+}
+Objects {
+  Id: 16013981087762971194
+  Name: "3x3 Tree Patch"
+  Transform {
+    Location {
+      X: -3200
+      Y: 5000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17453123100688651249
+  ChildIds: 15436013828608179873
+  ChildIds: 15562266004538225675
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15562266004538225675
+  Name: "Harvested Tree Geo"
+  Transform {
+    Location {
+      X: 500
+      Y: 480
+      Z: -5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16013981087762971194
+  ChildIds: 10667530159200704376
+  ChildIds: 7863146175859981935
+  ChildIds: 15314117198891711484
+  ChildIds: 7845141046143797203
+  ChildIds: 5783692381826697297
+  ChildIds: 7064332121266912698
+  ChildIds: 2229024975741835115
+  ChildIds: 14030082105837041060
+  ChildIds: 5971732942150339972
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5971732942150339972
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 15562266004538225675
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14030082105837041060
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 15562266004538225675
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2229024975741835115
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 15562266004538225675
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7064332121266912698
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 15562266004538225675
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5783692381826697297
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 15562266004538225675
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7845141046143797203
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 15562266004538225675
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15314117198891711484
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 15562266004538225675
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7863146175859981935
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 15562266004538225675
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10667530159200704376
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 15562266004538225675
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15436013828608179873
+  Name: "CollectableGroup"
+  Transform {
+    Location {
+      X: -500
+      Y: -395
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16013981087762971194
+  ChildIds: 11388433792233489902
+  ChildIds: 10439478019097204133
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Resource"
+      String: "Leafs"
+    }
+    Overrides {
+      Name: "cs:ResourceAmount"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 8226469640743787037
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10439478019097204133
+  Name: "CollectableGroup_Server"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15436013828608179873
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ClientRoot"
+      ObjectReference {
+        SelfId: 11388433792233489902
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12852801014046511253
+    }
+  }
+}
+Objects {
+  Id: 11388433792233489902
+  Name: "ClientContext"
+  Transform {
+    Location {
+      Y: -125
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15436013828608179873
+  ChildIds: 12677415955189469008
+  ChildIds: 5626111260648680706
+  ChildIds: 13966375062863750902
+  ChildIds: 4319659254075358494
+  ChildIds: 4246460359985165778
+  ChildIds: 17877602157024244839
+  ChildIds: 15576221626965152306
+  ChildIds: 7874602757928324891
+  ChildIds: 4501394950437464108
+  ChildIds: 10236758870904065816
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Contents"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Contents:isrep"
+      Bool: true
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 10236758870904065816
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11388433792233489902
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 4501394950437464108
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11388433792233489902
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 7874602757928324891
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11388433792233489902
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 15576221626965152306
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11388433792233489902
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 17877602157024244839
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11388433792233489902
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 4246460359985165778
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11388433792233489902
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 4319659254075358494
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11388433792233489902
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 13966375062863750902
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11388433792233489902
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 5626111260648680706
+  Name: "MantiTree"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11388433792233489902
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 12677415955189469008
+  Name: "CollectableGroup_Client"
+  Transform {
+    Location {
+      Y: 250
+      Z: -135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11388433792233489902
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:_Bitfields"
+      AssetReference {
+        Id: 13498945663756289152
+      }
+    }
+    Overrides {
+      Name: "cs:GroupRoot"
+      ObjectReference {
+        SelfId: 11388433792233489902
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17966986008140133144
+    }
+  }
+}
+Objects {
+  Id: 14259657524994832505
+  Name: "3x3 Tree Patch"
+  Transform {
+    Location {
+      X: -800
+      Y: 6500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17453123100688651249
+  ChildIds: 8561151320440148601
+  ChildIds: 16777666874665345285
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16777666874665345285
+  Name: "Harvested Tree Geo"
+  Transform {
+    Location {
+      X: 500
+      Y: 480
+      Z: -5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14259657524994832505
+  ChildIds: 17019874979765750225
+  ChildIds: 9801228877648056985
+  ChildIds: 11576707917474004010
+  ChildIds: 4272398424427404728
+  ChildIds: 6599236782442374904
+  ChildIds: 15119250673161949562
+  ChildIds: 5887178652118984918
+  ChildIds: 9809465353446684750
+  ChildIds: 8613835907217239704
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8613835907217239704
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 16777666874665345285
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9809465353446684750
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 16777666874665345285
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5887178652118984918
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 16777666874665345285
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15119250673161949562
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 16777666874665345285
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6599236782442374904
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 16777666874665345285
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4272398424427404728
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 16777666874665345285
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 11576707917474004010
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 16777666874665345285
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9801228877648056985
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 16777666874665345285
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17019874979765750225
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 16777666874665345285
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8561151320440148601
+  Name: "CollectableGroup"
+  Transform {
+    Location {
+      X: -500
+      Y: -395
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14259657524994832505
+  ChildIds: 8591899285664801035
+  ChildIds: 602033972045976009
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Resource"
+      String: "Leafs"
+    }
+    Overrides {
+      Name: "cs:ResourceAmount"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 8226469640743787037
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 602033972045976009
+  Name: "CollectableGroup_Server"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8561151320440148601
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ClientRoot"
+      ObjectReference {
+        SelfId: 8591899285664801035
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12852801014046511253
+    }
+  }
+}
+Objects {
+  Id: 8591899285664801035
+  Name: "ClientContext"
+  Transform {
+    Location {
+      Y: -125
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8561151320440148601
+  ChildIds: 16282085945751267949
+  ChildIds: 17919975947822057609
+  ChildIds: 5803467533526500464
+  ChildIds: 14050750202019270647
+  ChildIds: 8803084427477528017
+  ChildIds: 2512503335599579041
+  ChildIds: 15790451786133542370
+  ChildIds: 9464870663761977628
+  ChildIds: 7663657616751395673
+  ChildIds: 17424228177063560450
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Contents"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Contents:isrep"
+      Bool: true
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 17424228177063560450
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8591899285664801035
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 7663657616751395673
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8591899285664801035
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 9464870663761977628
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8591899285664801035
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 15790451786133542370
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8591899285664801035
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 2512503335599579041
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8591899285664801035
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 8803084427477528017
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8591899285664801035
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 14050750202019270647
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8591899285664801035
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 5803467533526500464
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8591899285664801035
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 17919975947822057609
+  Name: "MantiTree"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8591899285664801035
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 16282085945751267949
+  Name: "CollectableGroup_Client"
+  Transform {
+    Location {
+      Y: 250
+      Z: -135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8591899285664801035
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:_Bitfields"
+      AssetReference {
+        Id: 13498945663756289152
+      }
+    }
+    Overrides {
+      Name: "cs:GroupRoot"
+      ObjectReference {
+        SelfId: 8591899285664801035
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17966986008140133144
+    }
+  }
+}
+Objects {
+  Id: 14670840140783475240
+  Name: "3x3 Tree Patch"
+  Transform {
+    Location {
+      X: -800
+      Y: 11000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17453123100688651249
+  ChildIds: 17869714290974340256
+  ChildIds: 6455199275101036337
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6455199275101036337
+  Name: "Harvested Tree Geo"
+  Transform {
+    Location {
+      X: 500
+      Y: 480
+      Z: -5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14670840140783475240
+  ChildIds: 468976182003963994
+  ChildIds: 15142490986889738849
+  ChildIds: 4401327363962362651
+  ChildIds: 10798037984993913320
+  ChildIds: 2509830567692443938
+  ChildIds: 10558614206238983356
+  ChildIds: 7822186771443128950
+  ChildIds: 15057209600241775949
+  ChildIds: 18340675201954816948
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 18340675201954816948
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 6455199275101036337
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15057209600241775949
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 6455199275101036337
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7822186771443128950
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 6455199275101036337
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10558614206238983356
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 6455199275101036337
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2509830567692443938
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 6455199275101036337
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10798037984993913320
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 6455199275101036337
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4401327363962362651
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 6455199275101036337
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15142490986889738849
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 6455199275101036337
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 468976182003963994
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 6455199275101036337
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17869714290974340256
+  Name: "CollectableGroup"
+  Transform {
+    Location {
+      X: -500
+      Y: -395
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14670840140783475240
+  ChildIds: 12848330093112042193
+  ChildIds: 13294278768379404155
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Resource"
+      String: "Leafs"
+    }
+    Overrides {
+      Name: "cs:ResourceAmount"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 8226469640743787037
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13294278768379404155
+  Name: "CollectableGroup_Server"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17869714290974340256
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ClientRoot"
+      ObjectReference {
+        SelfId: 12848330093112042193
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12852801014046511253
+    }
+  }
+}
+Objects {
+  Id: 12848330093112042193
+  Name: "ClientContext"
+  Transform {
+    Location {
+      Y: -125
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17869714290974340256
+  ChildIds: 6756300088933421434
+  ChildIds: 4674883798176509143
+  ChildIds: 453808896703300259
+  ChildIds: 14723926032860311314
+  ChildIds: 10671806483793985697
+  ChildIds: 13562058416207540265
+  ChildIds: 5084785707356823501
+  ChildIds: 4982202606751108721
+  ChildIds: 10725230414790907727
+  ChildIds: 12473764066686444427
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Contents"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Contents:isrep"
+      Bool: true
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 12473764066686444427
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12848330093112042193
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 10725230414790907727
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12848330093112042193
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 4982202606751108721
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12848330093112042193
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 5084785707356823501
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12848330093112042193
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 13562058416207540265
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12848330093112042193
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 10671806483793985697
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12848330093112042193
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 14723926032860311314
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12848330093112042193
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 453808896703300259
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12848330093112042193
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 4674883798176509143
+  Name: "MantiTree"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12848330093112042193
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 6756300088933421434
+  Name: "CollectableGroup_Client"
+  Transform {
+    Location {
+      Y: 250
+      Z: -135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12848330093112042193
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:_Bitfields"
+      AssetReference {
+        Id: 13498945663756289152
+      }
+    }
+    Overrides {
+      Name: "cs:GroupRoot"
+      ObjectReference {
+        SelfId: 12848330093112042193
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17966986008140133144
+    }
+  }
+}
+Objects {
+  Id: 1271754187861226273
+  Name: "3x3 Tree Patch"
+  Transform {
+    Location {
+      X: -800
+      Y: 9500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17453123100688651249
+  ChildIds: 10761458762437834621
+  ChildIds: 8771557778005559786
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8771557778005559786
+  Name: "Harvested Tree Geo"
+  Transform {
+    Location {
+      X: 500
+      Y: 480
+      Z: -5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1271754187861226273
+  ChildIds: 15546405310438846364
+  ChildIds: 8670959212699530185
+  ChildIds: 7775623685741130334
+  ChildIds: 8123821184827642089
+  ChildIds: 15260950428212860567
+  ChildIds: 137004783519012582
+  ChildIds: 7086808927643521156
+  ChildIds: 10224051853141777478
+  ChildIds: 15872006863728707809
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15872006863728707809
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8771557778005559786
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10224051853141777478
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8771557778005559786
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7086808927643521156
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8771557778005559786
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 137004783519012582
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8771557778005559786
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15260950428212860567
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8771557778005559786
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8123821184827642089
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8771557778005559786
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7775623685741130334
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8771557778005559786
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8670959212699530185
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8771557778005559786
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15546405310438846364
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 8771557778005559786
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10761458762437834621
+  Name: "CollectableGroup"
+  Transform {
+    Location {
+      X: -500
+      Y: -395
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1271754187861226273
+  ChildIds: 1411446963988945781
+  ChildIds: 13019579795980724040
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Resource"
+      String: "Leafs"
+    }
+    Overrides {
+      Name: "cs:ResourceAmount"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 8226469640743787037
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13019579795980724040
+  Name: "CollectableGroup_Server"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10761458762437834621
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ClientRoot"
+      ObjectReference {
+        SelfId: 1411446963988945781
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12852801014046511253
+    }
+  }
+}
+Objects {
+  Id: 1411446963988945781
+  Name: "ClientContext"
+  Transform {
+    Location {
+      Y: -125
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10761458762437834621
+  ChildIds: 6286584346465510312
+  ChildIds: 6611685906650738348
+  ChildIds: 18236071994974083345
+  ChildIds: 15428228341669381576
+  ChildIds: 14816495561967154174
+  ChildIds: 17446904129081639948
+  ChildIds: 15744191537475780249
+  ChildIds: 2157960858864875498
+  ChildIds: 12951711638708327470
+  ChildIds: 1676422978462600107
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Contents"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Contents:isrep"
+      Bool: true
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 1676422978462600107
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1411446963988945781
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 12951711638708327470
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1411446963988945781
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 2157960858864875498
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1411446963988945781
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 15744191537475780249
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1411446963988945781
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 17446904129081639948
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1411446963988945781
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 14816495561967154174
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1411446963988945781
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 15428228341669381576
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1411446963988945781
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 18236071994974083345
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1411446963988945781
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 6611685906650738348
+  Name: "MantiTree"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1411446963988945781
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 6286584346465510312
+  Name: "CollectableGroup_Client"
+  Transform {
+    Location {
+      Y: 250
+      Z: -135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1411446963988945781
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:_Bitfields"
+      AssetReference {
+        Id: 13498945663756289152
+      }
+    }
+    Overrides {
+      Name: "cs:GroupRoot"
+      ObjectReference {
+        SelfId: 1411446963988945781
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17966986008140133144
+    }
+  }
+}
+Objects {
+  Id: 589444400967853541
+  Name: "3x3 Tree Patch"
+  Transform {
+    Location {
+      X: -800
+      Y: 8000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17453123100688651249
+  ChildIds: 377616082050756183
+  ChildIds: 2486006247853784866
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 2486006247853784866
+  Name: "Harvested Tree Geo"
+  Transform {
+    Location {
+      X: 500
+      Y: 480
+      Z: -5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 589444400967853541
+  ChildIds: 8005041706847099998
+  ChildIds: 10490029006584914023
+  ChildIds: 6808194317570391405
+  ChildIds: 16893594588857905718
+  ChildIds: 18091265489804273263
+  ChildIds: 17606039299425687206
+  ChildIds: 1256446705855074136
+  ChildIds: 9117271055574614574
+  ChildIds: 14494044758443027224
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14494044758443027224
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 2486006247853784866
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9117271055574614574
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 2486006247853784866
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1256446705855074136
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 2486006247853784866
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17606039299425687206
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 2486006247853784866
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18091265489804273263
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 2486006247853784866
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16893594588857905718
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 2486006247853784866
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6808194317570391405
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 2486006247853784866
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10490029006584914023
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 2486006247853784866
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8005041706847099998
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 2486006247853784866
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 377616082050756183
+  Name: "CollectableGroup"
+  Transform {
+    Location {
+      X: -500
+      Y: -395
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 589444400967853541
+  ChildIds: 579999166174454112
+  ChildIds: 16158312061197956992
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Resource"
+      String: "Leafs"
+    }
+    Overrides {
+      Name: "cs:ResourceAmount"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 8226469640743787037
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16158312061197956992
+  Name: "CollectableGroup_Server"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 377616082050756183
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ClientRoot"
+      ObjectReference {
+        SelfId: 579999166174454112
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12852801014046511253
+    }
+  }
+}
+Objects {
+  Id: 579999166174454112
+  Name: "ClientContext"
+  Transform {
+    Location {
+      Y: -125
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 377616082050756183
+  ChildIds: 12190281385582575098
+  ChildIds: 16809984801307235037
+  ChildIds: 13013303283788965877
+  ChildIds: 9430376239494385708
+  ChildIds: 8276002445149960394
+  ChildIds: 14610645147942632900
+  ChildIds: 3775402809354961171
+  ChildIds: 11986442426636000339
+  ChildIds: 10678452971481437525
+  ChildIds: 9741400716312136454
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Contents"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Contents:isrep"
+      Bool: true
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 9741400716312136454
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 579999166174454112
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 10678452971481437525
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 579999166174454112
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 11986442426636000339
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 579999166174454112
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 3775402809354961171
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 579999166174454112
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 14610645147942632900
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 579999166174454112
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 8276002445149960394
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 579999166174454112
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 9430376239494385708
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 579999166174454112
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 13013303283788965877
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 579999166174454112
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 16809984801307235037
+  Name: "MantiTree"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 579999166174454112
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 12190281385582575098
+  Name: "CollectableGroup_Client"
+  Transform {
+    Location {
+      Y: 250
+      Z: -135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 579999166174454112
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:_Bitfields"
+      AssetReference {
+        Id: 13498945663756289152
+      }
+    }
+    Overrides {
+      Name: "cs:GroupRoot"
+      ObjectReference {
+        SelfId: 579999166174454112
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17966986008140133144
+    }
+  }
+}
+Objects {
+  Id: 6479249027016919316
+  Name: "3x3 Tree Patch"
+  Transform {
+    Location {
+      X: -800
+      Y: 5000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17453123100688651249
+  ChildIds: 13819823459436839047
+  ChildIds: 12174591227945799564
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12174591227945799564
+  Name: "Harvested Tree Geo"
+  Transform {
+    Location {
+      X: 500
+      Y: 480
+      Z: -5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6479249027016919316
+  ChildIds: 1632759727743640170
+  ChildIds: 15496267636326379987
+  ChildIds: 7154460153037573810
+  ChildIds: 184503344337619427
+  ChildIds: 17881013739238174271
+  ChildIds: 13378123592885784396
+  ChildIds: 11151473427018912940
+  ChildIds: 15851488708303186805
+  ChildIds: 9209828985017380093
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9209828985017380093
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12174591227945799564
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15851488708303186805
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12174591227945799564
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 11151473427018912940
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12174591227945799564
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13378123592885784396
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12174591227945799564
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17881013739238174271
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12174591227945799564
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 184503344337619427
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+      Y: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12174591227945799564
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7154460153037573810
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12174591227945799564
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15496267636326379987
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12174591227945799564
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1632759727743640170
+  Name: "HarvestedTree"
+  Transform {
+    Location {
+      X: -1000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.15
+    }
+  }
+  ParentId: 12174591227945799564
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 14126948567503170457
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2656576053546069662
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13819823459436839047
+  Name: "CollectableGroup"
+  Transform {
+    Location {
+      X: -500
+      Y: -395
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6479249027016919316
+  ChildIds: 4092449925549910970
+  ChildIds: 11536741422658075227
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Resource"
+      String: "Leafs"
+    }
+    Overrides {
+      Name: "cs:ResourceAmount"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 8226469640743787037
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11536741422658075227
+  Name: "CollectableGroup_Server"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13819823459436839047
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ClientRoot"
+      ObjectReference {
+        SelfId: 4092449925549910970
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12852801014046511253
+    }
+  }
+}
+Objects {
+  Id: 4092449925549910970
+  Name: "ClientContext"
+  Transform {
+    Location {
+      Y: -125
+      Z: 135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13819823459436839047
+  ChildIds: 12117647371852999976
+  ChildIds: 12601419887184962058
+  ChildIds: 7244730670499932470
+  ChildIds: 18404740463973573802
+  ChildIds: 15278135272759909380
+  ChildIds: 2347611731418426669
+  ChildIds: 7234093024199439202
+  ChildIds: 13854895852198427093
+  ChildIds: 4765686691964179564
+  ChildIds: 12765181597131880518
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Contents"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Contents:isrep"
+      Bool: true
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 12765181597131880518
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4092449925549910970
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 4765686691964179564
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4092449925549910970
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 13854895852198427093
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 5180
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4092449925549910970
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 7234093024199439202
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4092449925549910970
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 2347611731418426669
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1600
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4092449925549910970
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 15278135272759909380
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -1100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4092449925549910970
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Y: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 18404740463973573802
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4092449925549910970
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1000
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 7244730670499932470
+  Name: "MantiTree"
+  Transform {
+    Location {
+      X: -2100
+      Y: 4680
+      Z: 180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4092449925549910970
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 500
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 12601419887184962058
+  Name: "MantiTree"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4092449925549910970
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6410018987293082502
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MantiTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -90
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1639952727762474468
+    }
+  }
+}
+Objects {
+  Id: 12117647371852999976
+  Name: "CollectableGroup_Client"
+  Transform {
+    Location {
+      Y: 250
+      Z: -135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4092449925549910970
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:_Bitfields"
+      AssetReference {
+        Id: 13498945663756289152
+      }
+    }
+    Overrides {
+      Name: "cs:GroupRoot"
+      ObjectReference {
+        SelfId: 4092449925549910970
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17966986008140133144
+    }
   }
 }
 Objects {
@@ -108,6 +12004,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -4704,20 +16610,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 7719511900935928140
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -4760,6 +16656,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -9356,20 +21262,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 4757163927969882283
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -9412,6 +21308,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -14008,20 +25914,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 5835940350721473602
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -14064,6 +25960,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -18660,20 +30566,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 3321677365036281602
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -18715,6 +30611,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -23311,20 +35217,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 9382060386504598356
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -23366,6 +35262,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -27962,20 +39868,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 248483055974700053
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -28017,6 +39913,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -32613,20 +44519,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 8553652555787098917
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -32668,6 +44564,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -37264,20 +49170,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 2565968476872193570
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -37319,6 +49215,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -41915,20 +53821,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 16397744135823210645
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -41970,6 +53866,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -46566,20 +58472,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 11130492118114138169
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -46621,6 +58517,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -51217,20 +63123,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 16753071779022820701
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -51272,6 +63168,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -55868,20 +67774,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 15260245140756235314
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -55923,6 +67819,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -60519,20 +72425,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 15275311263185500506
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -60574,6 +72470,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -65170,20 +77076,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 12819578083398477618
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -65225,6 +77121,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -69821,20 +81727,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 733324717647534856
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -69876,6 +81772,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -74472,20 +86378,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 4320947494256148565
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -74527,6 +86423,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -74839,7 +86745,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            Y: 200
+            X: 360
+            Y: 360
             Z: 200
           }
         }
@@ -74851,9 +86758,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
           }
         }
       }
@@ -74897,7 +86804,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            Y: 300
+            X: 360
+            Y: 460
             Z: 200
           }
         }
@@ -74909,9 +86817,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
           }
         }
       }
@@ -74955,7 +86863,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            Y: 400
+            X: 360
+            Y: 560
             Z: 200
           }
         }
@@ -74967,9 +86876,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
           }
         }
       }
@@ -77399,7 +89308,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            Y: 400
+            X: 360
+            Y: 560
             Z: 100
           }
         }
@@ -77411,9 +89321,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
           }
         }
       }
@@ -79123,20 +91033,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 2047153293600547811
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -79178,6 +91078,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -83774,20 +95684,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 15574731374941813336
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -83829,6 +95729,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -88425,20 +100335,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 10965772236005045692
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -88480,6 +100380,16 @@ Objects {
     Overrides {
       Name: "cs:ResourceAmount"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:RespawnTime"
+      Float: -1
+    }
+    Overrides {
+      Name: "cs:PickupEffect"
+      AssetReference {
+        Id: 9640400270141758965
+      }
     }
   }
   Collidable_v2 {
@@ -88675,8 +100585,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 400
-            Y: 400
+            X: 760
+            Y: 560
             Z: 200
           }
         }
@@ -88688,9 +100598,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
           }
         }
       }
@@ -89981,8 +101891,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 400
-            Y: 200
+            X: 760
+            Y: 360
             Z: 200
           }
         }
@@ -89994,9 +101904,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
           }
         }
       }
@@ -90041,8 +101951,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 400
-            Y: 300
+            X: 760
+            Y: 460
             Z: 200
           }
         }
@@ -90054,9 +101964,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
           }
         }
       }
@@ -90217,8 +102127,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 400
-            Y: 300
+            X: 760
+            Y: 460
             Z: 100
           }
         }
@@ -90230,9 +102140,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
           }
         }
       }
@@ -91585,8 +103495,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 400
-            Y: 400
+            X: 760
+            Y: 560
             Z: 100
           }
         }
@@ -91598,9 +103508,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
           }
         }
       }
@@ -93076,20 +104986,10 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:PickupEffect"
-      AssetReference {
-        Id: 9640400270141758965
-      }
-    }
-    Overrides {
       Name: "cs:GroupRoot"
       ObjectReference {
         SelfId: 14851718903359051297
       }
-    }
-    Overrides {
-      Name: "cs:AutoRespawnTime"
-      Float: -1
     }
   }
   Collidable_v2 {
@@ -93249,7 +105149,6 @@ Objects {
   ChildIds: 6540051190517403274
   ChildIds: 14150636825974441668
   ChildIds: 14728865996300340076
-  ChildIds: 17530154940617376485
   ChildIds: 12547040106547062876
   ChildIds: 13166421830599342672
   ChildIds: 17037346941263414609
@@ -93261,6 +105160,12 @@ Objects {
   ChildIds: 9711054651454482533
   ChildIds: 9008895563293551273
   ChildIds: 9890559828351873741
+  ChildIds: 3992840607560044216
+  ChildIds: 16257855487199544737
+  ChildIds: 544905191362286414
+  ChildIds: 13733031572946718202
+  ChildIds: 16726504584218049742
+  ChildIds: 5188904835931251606
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -93269,6 +105174,336 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 5188904835931251606
+  Name: "Wall"
+  Transform {
+    Location {
+      X: -7000
+      Y: 8800
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 20.25
+      Y: 88.7500153
+      Z: 33
+    }
+  }
+  ParentId: 13955572880352022772
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 132672053610873933
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        G: 0.321191788
+        B: 0.5
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16726504584218049742
+  Name: "Wall"
+  Transform {
+    Location {
+      X: -7200
+      Y: 15700
+      Z: 1550
+    }
+    Rotation {
+    }
+    Scale {
+      X: 64.0000153
+      Y: 42.75
+      Z: 33
+    }
+  }
+  ParentId: 13955572880352022772
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 132672053610873933
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        G: 0.321191788
+        B: 0.5
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13733031572946718202
+  Name: "Wall"
+  Transform {
+    Location {
+      X: -3100
+      Y: 16200
+      Z: 1250
+    }
+    Rotation {
+    }
+    Scale {
+      X: 64.0000153
+      Y: 42.75
+      Z: 33
+    }
+  }
+  ParentId: 13955572880352022772
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 132672053610873933
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        G: 0.321191788
+        B: 0.5
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 544905191362286414
+  Name: "Wall"
+  Transform {
+    Location {
+      X: 1000
+      Y: 15000
+      Z: 2150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 32.75
+      Y: 42.75
+      Z: 58.0000191
+    }
+  }
+  ParentId: 13955572880352022772
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 132672053610873933
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        G: 0.321191788
+        B: 0.5
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16257855487199544737
+  Name: "Wall"
+  Transform {
+    Location {
+      X: 1600
+      Y: 11200
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 32.75
+      Y: 42.75
+      Z: 58.0000191
+    }
+  }
+  ParentId: 13955572880352022772
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 132672053610873933
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        G: 0.321191788
+        B: 0.5
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 3992840607560044216
+  Name: "Default Floor"
+  Transform {
+    Location {
+      X: -4515
+      Y: 8485
+      Z: 0.00048828125
+    }
+    Rotation {
+    }
+    Scale {
+      X: 101.75
+      Y: 128.999969
+      Z: 1
+    }
+  }
+  ParentId: 13955572880352022772
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 132672053610873933
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        G: 0.321191788
+        B: 0.5
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -93837,61 +106072,6 @@ Objects {
       X: 44
       Y: 37
       Z: 32.0000038
-    }
-  }
-  ParentId: 13955572880352022772
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 132672053610873933
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        G: 0.321191788
-        B: 0.5
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 17530154940617376485
-  Name: "Wall"
-  Transform {
-    Location {
-      X: -3820
-      Y: 6000
-      Z: 670
-    }
-    Rotation {
-    }
-    Scale {
-      X: 85.9999924
-      Y: 30.75
-      Z: 41
     }
   }
   ParentId: 13955572880352022772

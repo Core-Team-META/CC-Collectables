@@ -15,8 +15,8 @@ See the Readme for a more detailed breakdown of the architecture.
 
 
 local prop_Bitfields = script:GetCustomProperty("_Bitfields")
-local propPickupEffect = script:GetCustomProperty("PickupEffect")
 local propGroupRoot = script:GetCustomProperty("GroupRoot"):WaitForObject()
+local propPickupEffect = propGroupRoot.parent:GetCustomProperty("PickupEffect")
 local propAutoRespawnTime = script:GetCustomProperty("AutoRespawnTime")
 
 local SERVER_DATA_PROPERTY = "Contents"
@@ -45,7 +45,6 @@ function Init()
 	for k,v in pairs(propGroupRoot:GetChildren()) do
 		if v ~= script then
 			local propTrigger = v:GetCustomProperty("Trigger"):WaitForObject()
-			propTrigger.beginOverlapEvent:Connect(OnTriggerHit)
 			objList[propTrigger] = {
 				obj = v,
 				active = true,
@@ -56,6 +55,11 @@ function Init()
 			}
 			idToTrigger[totalCoins] = propTrigger
 			totalCoins = totalCoins + 1
+			if propTrigger.isInteractable then
+				propTrigger.interactedEvent:Connect(OnInteract)
+		else
+				propTrigger.beginOverlapEvent:Connect(OnTriggerHit)
+			end
 		end
 	end
 	recentlyCollected = BF.New(totalCoins)
@@ -66,15 +70,18 @@ function Init()
 end
 
 
+function SendUpdateToServer()
+	if needToReportCollections then
+		ReliablyBroadcastToServer(UPDATE_EVENT, recentlyCollected.bits, recentlyCollected.raw)
+		recentlyCollected:Reset()
+		needToReportCollections = false
+	end
+end
+
+
 function SyncServerDataTask()
 	while(true) do
-		if needToReportCollections then
-			ReliablyBroadcastToServer(UPDATE_EVENT, recentlyCollected.bits, recentlyCollected.raw)
-			recentlyCollected:Reset()
-
-			needToReportCollections = false
-		end
-
+		SendUpdateToServer()
 		-- Fix things to match the server, if they've been changed locally
 		-- but the server hasn't validated them after MAX_DESYNC_TIME.
 		FixOldData()
@@ -141,6 +148,13 @@ function OnTriggerHit(trigger, other)
 			needToReportCollections = true
 		end
 	end
+end
+
+function OnInteract(trigger, other)
+	-- todo - force animation here
+	OnTriggerHit(trigger, other)
+	-- Force a server update here, since interactions are (presumably) slower.
+	SendUpdateToServer()
 end
 
 
