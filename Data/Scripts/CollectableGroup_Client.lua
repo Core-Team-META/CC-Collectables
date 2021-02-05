@@ -15,19 +15,19 @@ See the Readme for a more detailed breakdown of the architecture.
 
 
 local prop_Bitfields = script:GetCustomProperty("_Bitfields")
-local propGroupRoot = script:GetCustomProperty("GroupRoot"):WaitForObject()
+local propGroupRoot = script.parent -- script:GetCustomProperty("GroupRoot"):WaitForObject()
 local propPickupEffect = propGroupRoot.parent:GetCustomProperty("PickupEffect")
 local propAutoRespawnTime = script:GetCustomProperty("AutoRespawnTime")
 
 local SERVER_DATA_PROPERTY = "Contents"
 
+local UPDATE_DELAY = 2 -- Time between updates sent to server.  (in seconds)
 local MAX_DESYNC_TIME = 4	-- How long we'll tolerate a lack of update from server.
 
 local BF = require(prop_Bitfields)
 
 local UPDATE_EVENT = propGroupRoot:GetReference().id .. ":UpdateContents"
 local INIT_EVENT = propGroupRoot:GetReference().id .. ":Init"
-
 
 local objList = {}
 local idToTrigger = {}
@@ -81,11 +81,15 @@ end
 
 function SyncServerDataTask()
 	while(true) do
+		-- This is lazy, and it will only send an update if there is anything
+		-- new to report.
 		SendUpdateToServer()
+
 		-- Fix things to match the server, if they've been changed locally
 		-- but the server hasn't validated them after MAX_DESYNC_TIME.
 		FixOldData()
-		Task.Wait(2)
+
+		Task.Wait(UPDATE_DELAY)
 	end
 end
 
@@ -143,6 +147,7 @@ function OnTriggerHit(trigger, other)
 				-- We only count it as collected if it was us!
 				recentlyCollected:Set(data.id, true)
 			end
+			Events.Broadcast("Collectable", other)
 
 			World.SpawnAsset(propPickupEffect, {position = data.obj:GetWorldPosition()})
 			needToReportCollections = true

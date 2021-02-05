@@ -10,6 +10,11 @@ Assets {
           Id: 13498945663756289152
         }
       }
+      Overrides {
+        Name: "cs:ClientRoot"
+        ObjectReference {
+        }
+      }
     }
   }
   SerializationVersion: 74
