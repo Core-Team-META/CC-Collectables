@@ -18,6 +18,8 @@ local propClientRoot = script:GetCustomProperty("ClientRoot"):WaitForObject()
 local propResource = script.parent:GetCustomProperty("Resource")
 local propResourceAmount = script.parent:GetCustomProperty("ResourceAmount")
 
+if propResourceAmount == nil then propResourceAmount = 1 end
+
 local SERVER_DATA_PROPERTY = "Contents"
 
 local BF = require(prop_Bitfields)
@@ -43,7 +45,9 @@ function UpdateContents(player, bits, dataString)
 		if collected:Get(i) then
 			if collectableData:Get(i) then
 				collectableData:Set(i, false)
-				player:AddResource(propResource, propResourceAmount)
+				if propResource ~= nil then
+					player:AddResource(propResource, propResourceAmount)
+				end
 				needToUpdate = true
 			else
 				warn("!!!! Tried to collect an id that wasn't there:" .. tostring(i) .. ":" .. player.name)

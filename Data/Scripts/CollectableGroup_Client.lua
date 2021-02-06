@@ -149,7 +149,9 @@ function OnTriggerHit(trigger, other)
 			end
 			Events.Broadcast("Collectable", other)
 
-			World.SpawnAsset(propPickupEffect, {position = data.obj:GetWorldPosition()})
+			if propPickupEffect ~= nil then
+				World.SpawnAsset(propPickupEffect, {position = data.obj:GetWorldPosition()})
+			end
 			needToReportCollections = true
 		end
 	end

@@ -22,6 +22,8 @@ Objects {
   ChildIds: 5189954099606264418
   ChildIds: 7479349496451022702
   ChildIds: 17453123100688651249
+  ChildIds: 9642303586462649420
+  ChildIds: 10911792583464278191
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,6 +33,89 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 10911792583464278191
+  Name: "Collectable Coin Group"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2346299826263987260
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Collectable Coin Group"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2375
+            Y: 1075
+            Z: 250
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16770233353028870407
+    }
+  }
+}
+Objects {
+  Id: 9642303586462649420
+  Name: "Harvestable Tree Patch"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17703096073299394831
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Harvestable Tree Patch"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1200
+            Y: 1150
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 622179519493683709
+    }
   }
 }
 Objects {
