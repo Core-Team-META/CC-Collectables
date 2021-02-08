@@ -24,6 +24,7 @@ Objects {
   ChildIds: 17453123100688651249
   ChildIds: 9642303586462649420
   ChildIds: 10911792583464278191
+  ChildIds: 17210594911876654417
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,6 +34,32 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 17210594911876654417
+  Name: "Efficient Collectables"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1922599688902567268
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Efficient Collectables"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6131898597161979646
+    }
   }
 }
 Objects {

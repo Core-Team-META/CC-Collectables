@@ -1,6 +1,10 @@
+--[[
+	Efficient Collectables - README
+	1.0.0 - Feb 5, 2020
+	by Chris Cornell, Team META
+
 # CC-Collectables
 Community Content for efficient collectable objects!
-![My image](https://github.com/Core-Team-META/CC-Collectables/blob/master/ReadmeImages/HeaderImage.png?raw=true)
 
 ## Overview
 
@@ -77,12 +81,8 @@ the update time.
 
 Collection groups follow a fairly specific structure:
 
-![My image](https://github.com/Core-Team-META/CC-Collectables/blob/master/ReadmeImages/BasicStructure.png?raw=true)
-
 At the top level there is the collectable group.  There are a few optional properties that can be placed
 on this object, to control the behavior of all collectables in the group.
-
-![My image](https://github.com/Core-Team-META/CC-Collectables/blob/master/ReadmeImages/CollectableProperties.png?raw=true)
 
 * `Resource` (string) - If this field exists, this is the name of the resource that will be awarded to the player (via `Player.AddResource()`)
   whenever they pick up a collectable in this group.  (If this property does not exist, then no resources will be awarded.)
@@ -109,3 +109,13 @@ that are to be collected.
 
 These can be structured however you want - they just need to have a trigger volume somewhere inside of them, and a
 top-level property named `Trigger`, linking to it.
+
+
+## Discord
+
+If you have any questions, feel free to join the Core Hub Discord Server:
+
+discord.gg/core-creators
+	We are a friendly group of creators and players in the Core community. Everyone is welcome to play games together or
+	learn about game dev!
+--]]
