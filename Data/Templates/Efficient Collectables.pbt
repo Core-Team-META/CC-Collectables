@@ -18,27 +18,27 @@ Assets {
         ParentId: 4781671109827199097
         UnregisteredParameters {
           Overrides {
+            Name: "cs:EfficientCollectables_README"
+            AssetReference {
+              Id: 17004577224744968603
+            }
+          }
+          Overrides {
             Name: "cs:CollectableCoinGroup"
-            ObjectReference {
-              SelfId: 9272599291298901430
-              SubObjectId: 2346299826263987260
-              InstanceId: 10911792583464278191
-              TemplateId: 16770233353028870407
+            AssetReference {
+              Id: 16770233353028870407
             }
           }
           Overrides {
             Name: "cs:HarvestableTreePatch"
-            ObjectReference {
-              SelfId: 11689871673289333001
-              SubObjectId: 17703096073299394831
-              InstanceId: 9642303586462649420
-              TemplateId: 622179519493683709
+            AssetReference {
+              Id: 622179519493683709
             }
           }
           Overrides {
-            Name: "cs:EfficientCollectables_README"
+            Name: "cs:ResetCollectablesButton"
             AssetReference {
-              Id: 17004577224744968603
+              Id: 5496717980017017299
             }
           }
         }
@@ -59,4 +59,5 @@ Assets {
     }
   }
   SerializationVersion: 74
+  DirectlyPublished: true
 }

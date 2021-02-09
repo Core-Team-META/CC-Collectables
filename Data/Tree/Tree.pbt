@@ -19,7 +19,7 @@ Objects {
   ChildIds: 14713340454944924967
   ChildIds: 10005074784157121906
   ChildIds: 13955572880352022772
-  ChildIds: 5189954099606264418
+  ChildIds: 6792001952008341756
   ChildIds: 7479349496451022702
   ChildIds: 17453123100688651249
   ChildIds: 9642303586462649420
@@ -47,6 +47,12 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 1922599688902567268
@@ -54,6 +60,16 @@ Objects {
         Overrides {
           Name: "Name"
           String: "Efficient Collectables"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
         }
       }
     }
@@ -72451,17 +72467,9 @@ Objects {
   }
 }
 Objects {
-  Id: 5189954099606264418
-  Name: "Sci-fi Console Screen 03"
+  Id: 6792001952008341756
+  Name: "Reset Collectables Button"
   Transform {
-    Location {
-      X: -1485
-      Y: 2545
-      Z: 365
-    }
-    Rotation {
-      Yaw: 180
-    }
     Scale {
       X: 1
       Y: 1
@@ -72469,106 +72477,32 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 14353438970737002455
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail2:color"
-      Color {
-        G: 0.839999855
-        B: 0.840000033
-        A: 1
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9802320275638469321
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Reset Collectables Button"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1485
+            Y: 2545
+            Z: 365
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999985
+          }
+        }
       }
     }
-    Overrides {
-      Name: "ma:Shared_Detail3:color"
-      Color {
-        G: 0.185430154
-        B: 0.700000048
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7917643843895697114
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 14353438970737002455
-  Name: "Trigger"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5189954099606264418
-  ChildIds: 7970008755560730650
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    Interactable: true
-    InteractionLabel: "Reset Coins"
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-}
-Objects {
-  Id: 7970008755560730650
-  Name: "ResetCoinTriggerScript"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14353438970737002455
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 15862581747017050256
+    TemplateAsset {
+      Id: 5496717980017017299
     }
   }
 }

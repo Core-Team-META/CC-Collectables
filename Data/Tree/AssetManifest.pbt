@@ -35,15 +35,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7917643843895697114
-  Name: "Sci-fi Console Screen 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_screen_003_ref"
-  }
-}
-Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
