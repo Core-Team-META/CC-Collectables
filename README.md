@@ -2,6 +2,8 @@
 
 # CC-Collectables
 
+> Community Content for efficient collectable objects!
+
 [![Build Status](https://github.com/Core-Team-META/CC-Collectables/workflows/CI/badge.svg)](https://github.com/Core-Team-META/CC-Collectables/actions/workflows/ci.yml?query=workflow%3ACI%29)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Core-Team-META/CC-Collectables?style=plastic)
 
@@ -9,7 +11,7 @@
 
 </div>
 
-> Community Content for efficient collectable objects!
+
 
 ## Overview
 
@@ -86,12 +88,12 @@ the update time.
 
 Collection groups follow a fairly specific structure:
 
-![My image](https://github.com/Core-Team-META/CC-Collectables/blob/master/ReadmeImages/BasicStructure.png?raw=true)
+![My image](/ReadmeImages/BasicStructure.png)
 
 At the top level there is the collectable group.  There are a few optional properties that can be placed
 on this object, to control the behavior of all collectables in the group.
 
-![My image](https://github.com/Core-Team-META/CC-Collectables/blob/master/ReadmeImages/CollectableProperties.png?raw=true)
+![My image](/ReadmeImages/CollectableProperties.png)
 
 * `Resource` (string) - If this field exists, this is the name of the resource that will be awarded to the player (via `Player.AddResource()`)
   whenever they pick up a collectable in this group.  (If this property does not exist, then no resources will be awarded.)
