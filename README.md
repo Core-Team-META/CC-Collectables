@@ -1,6 +1,15 @@
+<div align="center">
+
 # CC-Collectables
-Community Content for efficient collectable objects!
-![My image](https://github.com/Core-Team-META/CC-Collectables/blob/master/ReadmeImages/HeaderImage.png?raw=true)
+
+[![Build Status](https://github.com/Core-Team-META/CC-Collectables/workflows/CI/badge.svg)](https://github.com/Core-Team-META/CC-Collectables/actions/workflows/ci.yml?query=workflow%3ACI%29)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Core-Team-META/CC-Collectables?style=plastic)
+
+![TitleCard](ReadmeImages/HeaderImage.png)
+
+</div>
+
+> Community Content for efficient collectable objects!
 
 ## Overview
 
