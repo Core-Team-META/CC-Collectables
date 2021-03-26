@@ -2,7 +2,7 @@
 
 # CC-Collectables
 
-> Community Content for efficient collectable objects!
+Community Content for efficient collectable objects!
 
 [![Build Status](https://github.com/Core-Team-META/CC-Collectables/workflows/CI/badge.svg)](https://github.com/Core-Team-META/CC-Collectables/actions/workflows/ci.yml?query=workflow%3ACI%29)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Core-Team-META/CC-Collectables?style=plastic)
