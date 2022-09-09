@@ -45,7 +45,7 @@ server sends updates back to the groups.  (And how people joining the game late 
 state of all the collectable objects in the game.)
 
 Since each collectable group contains only one networked object (the client context containing all
-of the collectables) it is very efficient on netowrk usage.
+of the collectables) it is very efficient on network usage.
 
 
 ## Quick Start
