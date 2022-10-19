@@ -64,7 +64,7 @@ function Init()
 	end
 	recentlyCollected = BF.New(totalCoins)
 
-	propGroupRoot.networkedPropertyChangedEvent:Connect(OnServerUpdate)
+	propGroupRoot.customPropertyChangedEvent:Connect(OnServerUpdate)
 	ReliablyBroadcastToServer(INIT_EVENT, totalCoins)
 	Task.Spawn(SyncServerDataTask)
 end
