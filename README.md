@@ -11,8 +11,6 @@ Community Content for efficient collectable objects!
 
 </div>
 
-
-
 ## Overview
 
 It's common in games to want to have lots of items that can be picked up by players.  Unfortunately, the
@@ -21,7 +19,6 @@ problems, if there are large number of collectable objects.
 
 This community content is intended to get around that problem.
 
-
 ## Implementation Details
 
 This content contains code and structure to allow most of the pickup logic to happen on the client side.
@@ -29,7 +26,7 @@ The client still reports picked up objects to the server, and the server still v
 two clients can't pick up the same object, for example) but the network traffic is reduced tremendously.
 
 The library is built around the idea of "collectable groups".  A collectable group is a collection of
-collectables in the heirarchy that are treated as a unit.  They are loosely tracked by the server, but
+collectables in the hierarchy that are treated as a unit.  They are loosely tracked by the server, but
 only for keeping them in sync between clients and resolving conflicts.  (Like when two players try to
 grab the same collectable at the same time.)
 
@@ -47,7 +44,6 @@ state of all the collectable objects in the game.)
 Since each collectable group contains only one networked object (the client context containing all
 of the collectables) it is very efficient on network usage.
 
-
 ## Quick Start
 
 Want to have collectable objects in your game?  Cool.  Grab the Collectable Coin Group template
@@ -61,7 +57,6 @@ just deinstance the templates, and put new objects in the ClientContext to colle
 to make sure every object has a custom property named `Trigger` pointing to that object's trigger
 volume.  Look at the sample templates if you need a reference!
 
-
 ## Extra Details
 
 Here are some extra details about the structure.  You shouldn't need to know this if you are just
@@ -72,7 +67,7 @@ know about if you are creating your own collection groups from scratch.
 
 In the sample, the coin groups have 75 (5x5x3) coins per group.  This isn't a hard limit though-
 collection groups can have an arbitrary number of items in them.  Pick whatever seems right for your
-use case.  
+use case.
 
 Collection groups batch their updates, so putting too few items in a group can lose that benefit.
 (The extreme case would be having only one item per collection group, which would just end up being
@@ -82,7 +77,6 @@ Collection groups also always update with their full contents, so having large c
 means that the actual update messages become large and potentially slower.  So the other extreme
 would be putting several thousand items into the same collection group, dramatically slowing down
 the update time.
-
 
 ### Structure
 

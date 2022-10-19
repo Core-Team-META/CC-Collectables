@@ -22,7 +22,7 @@ The client still reports picked up objects to the server, and the server still v
 two clients can't pick up the same object, for example) but the network traffic is reduced tremendously.
 
 The library is built around the idea of "collectable groups".  A collectable group is a collection of
-collectables in the heirarchy that are treated as a unit.  They are loosely tracked by the server, but
+collectables in the hierarchy that are treated as a unit.  They are loosely tracked by the server, but
 only for keeping them in sync between clients and resolving conflicts.  (Like when two players try to
 grab the same collectable at the same time.)
 
@@ -38,7 +38,7 @@ server sends updates back to the groups.  (And how people joining the game late 
 state of all the collectable objects in the game.)
 
 Since each collectable group contains only one networked object (the client context containing all
-of the collectables) it is very efficient on netowrk usage.
+of the collectables) it is very efficient on network usage.
 
 
 ## Quick Start
@@ -65,7 +65,7 @@ know about if you are creating your own collection groups from scratch.
 
 In the sample, the coin groups have 75 (5x5x3) coins per group.  This isn't a hard limit though-
 collection groups can have an arbitrary number of items in them.  Pick whatever seems right for your
-use case.  
+use case.
 
 Collection groups batch their updates, so putting too few items in a group can lose that benefit.
 (The extreme case would be having only one item per collection group, which would just end up being
