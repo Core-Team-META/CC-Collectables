@@ -3,6 +3,8 @@ Assets {
   Name: "EfficientCollectables_README"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 74
+  SerializationVersion: 119
 }

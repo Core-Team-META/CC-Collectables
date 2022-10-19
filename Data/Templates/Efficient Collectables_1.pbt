@@ -19,6 +19,9 @@ Assets {
             Z: 1
           }
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           BundleDummy {
             ReferencedAssets {
@@ -26,6 +29,10 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
       }
     }
     PrimaryAssetId {
@@ -39,5 +46,5 @@ Assets {
     OwnerName: "TeamMETA"
     Description: "It\'s common in games to want to have lots of items that can be picked up by players. Unfortunately, the obvious approach (each collectable as an individual netowrked object) can lead to severe performance problems, if there are large number of collectable objects.\r\n\r\nThis community content is intended to get around that problem, and enable game worlds with thousands of potential collectable objects!"
   }
-  SerializationVersion: 74
+  SerializationVersion: 119
 }
