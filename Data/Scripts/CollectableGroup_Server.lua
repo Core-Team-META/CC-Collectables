@@ -1,6 +1,6 @@
 --[[
 Collectable Group - Server
-v1.0
+v1.5.0
 Created by Chris
 
 Server-side implementation for collectable groups.

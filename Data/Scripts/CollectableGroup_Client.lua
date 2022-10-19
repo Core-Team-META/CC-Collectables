@@ -1,6 +1,6 @@
 --[[
 Collectable Group - Client
-v1.0
+v1.5.0
 Created by Chris
 
 Client-side implementation for collectable groups.
