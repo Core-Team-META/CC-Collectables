@@ -62,7 +62,7 @@ end
 -- Updates the custom network property with the "official" game state data.
 function UpdateCurrentStringData()
 	if collectableData ~= nil then
-		propClientRoot:SetNetworkedCustomProperty(SERVER_DATA_PROPERTY, collectableData.raw)
+		propClientRoot:SetCustomProperty(SERVER_DATA_PROPERTY, collectableData.raw)
 	else
 		warn("Somehow got to update string data without any data?")
 	end
